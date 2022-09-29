@@ -35,7 +35,7 @@ export const DragonDataSheet = ({ data, clearCurrentDragonStatus }) => {
                         {data.flickr_images.map((image) => (
                             <div key={data.flickr_images.indexOf(image)} className="wrap">
                                 <div className="slider-img">
-                                    <img src={image}/>
+                                    <img src={image} alt="pic"/>
                                 </div>
                             </div>
                         ))} 
@@ -47,7 +47,7 @@ export const DragonDataSheet = ({ data, clearCurrentDragonStatus }) => {
                     </div>
                     <p>{data.description}</p>
                     <div className="link-block">
-                        <a href={data.wikipedia} target="_blank">Article on Wikipedia</a>
+                        <a href={data.wikipedia} target="_blank" rel="noreferrer">Article on Wikipedia</a>
                     </div>
                     
                     <div className="info-table">
