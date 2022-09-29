@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+## Introdunction
+This simple **React application** displays information about SpaceX's reusable spacecraft. It's mobile-friendly.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's also avaible by _https_ protocol: [https://dynamic-malasada-f2f679.netlify.app](https://dynamic-malasada-f2f679.netlify.app)
 
-## Available Scripts
+When creating was used:
 
-In the project directory, you can run:
+- create-react-app
+- react-slick
 
-### `npm start`
+> The application was written using functional components and hooks, no classes (except those that are imported to work with react-slick)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to set up the development environment
+**Step 1:** download and extract the project archive
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Step 2:** Open the project folder in the Git console (Right click on the folder and select "Git bash here" from the context menu)
 
-### `npm test`
+**Step 3:** Write `npm install` on the command line to install all the dependencies in the project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Step 4:** Happy Hacking!
 
-### `npm run build`
+## How to deploy
+I used [**Netlify**](https://www.netlify.com/) for deploying my project, here is step-by-step instruction about how to do it by yourself.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After setting up development environment you have this project as folder on your computer, then follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### _GitHub part_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Step 1:** Open the project folder in the Git console or console in you code editor (VScode, for exaple) an type `git init` to initialize your git repository
 
-### `npm run eject`
+**Step 2:** `git add .` for saving all changes in repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Step 3:** `git commit -m "Describe changes you added"` commiting your project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Step 4:** `git remote add origin https://github.com/yawgoo87/react-dragon-app.git` Instead https you must paste link on your repository, where you want push project to
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Step 5:** `git push origin master` for pushing your project.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### _Netlify part_
 
-## Learn More
+Step 6: Sign Up with your GitHub account on [**Netlify**](https://www.netlify.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Step 7: Connecting to Git provider(follow Netlify instructions)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Step 8: Choose repository with project you want to publish
 
-### Code Splitting
+Step 9: ✨Finish✨
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Don't be afraid if you got ERROR after deploying. There is the logs where you can see document and string that was cause of error, you can fix it in your code editor.
 
-### Analyzing the Bundle Size
+## How to upload your fixes and updates?
+You just need to perform steps 2, 3 and 5 from [_GitHub part_](https://github.com/yawgoo87/react-dragon-app/new/master#github-part) after editind and saving project, let's repeat them:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Step 1:** `git add .`
 
-### Making a Progressive Web App
+**Step 2:** `git commit -m "Describe changes you added"`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Step 3:** `git push origin master`
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Have fun✨
