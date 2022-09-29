@@ -1,6 +1,8 @@
 ## Introdunction
 This simple **React application** displays information about SpaceX's reusable spacecraft. It's mobile-friendly.
 
+Application is taking JSON data from API, caching it in localStorage and shows information.
+
 It's also avaible by _https_ protocol: [https://dynamic-malasada-f2f679.netlify.app](https://dynamic-malasada-f2f679.netlify.app)
 
 When creating was used:
