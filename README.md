@@ -7,8 +7,8 @@ It's also avaible by _https_ protocol: [https://dynamic-malasada-f2f679.netlify.
 
 When creating was used:
 
-- create-react-app
-- react-slick
+- [create-react-app](https://create-react-app.dev/docs/getting-started)
+- [react-slick](https://react-slick.neostack.com/docs/get-started)
 
 > The application was written using functional components and hooks, no classes (except those that are imported to work with react-slick)
 
