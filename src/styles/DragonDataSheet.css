@@ -105,6 +105,10 @@ p {
     margin-bottom: 0;
 }
 
+.data-sheet-body .main-heading{
+    padding: 30px 12px 0px 15px;
+}
+
 .link-block{
     height: 40px;
     width: fit-content;

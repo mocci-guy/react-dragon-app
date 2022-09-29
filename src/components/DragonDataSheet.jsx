@@ -43,7 +43,7 @@ export const DragonDataSheet = ({ data, clearCurrentDragonStatus }) => {
                 </div>   
                 <div className="data-sheet-body">
                     <div >
-                        <h2>{data.name}</h2>
+                        <h2 className="main-heading">{data.name}</h2>
                     </div>
                     <p>{data.description}</p>
                     <div className="link-block">
